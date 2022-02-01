@@ -1,0 +1,98 @@
+.middle{
+  margin-bottom: 30px;
+}
+.portfolio-section .container a{
+  text-decoration: none;
+
+}
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    text-decoration: none;
+  } 
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  .content-image{
+    width: 100%;
+  }
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details .content-title{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+   margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .content-details .content-name{
+    color: rgb(156, 156, 156);
+    opacity: .5;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .content-details .btn{
+    background-image: linear-gradient(to right,#06BC9B, #13978e);
+    font-size: 1rem;
+    border: 0 none;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .content-details .btn:hover{
+    background-image: linear-gradient(to right,#13978e,#06BC9B);
+}
+
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  .fadeIn-top{
+    top: 20%;
+  }
+  .fadeIn-left{
+    left: 20%;
+  }
+  .fadeIn-right{
+    left: 80%;
+  }

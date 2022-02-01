@@ -1,0 +1,43 @@
+.contact   h3{
+    color:#FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom:1px solid black;
+    background-color: #06BC9B; 
+    height: 60px; 
+    padding-top: 15px;
+}
+.contact .table td{
+    color:rgb(94, 94, 94);
+    max-width: 200px;
+    word-break: break-all;
+}
+.middle{
+    margin-bottom: 30px;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.contact form .btn{
+    background-image: linear-gradient(to right,#06BC9B, #13978e);
+    border:none;
+}
+
+.contact form .btn:hover{
+    background-image: linear-gradient(to right, #13978e, #06BC9B);
+    
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1024px) { 
+     
+    .contact   h3{   
+        font-size: 1.2rem;       
+    }  
+    
+
+}

@@ -1,0 +1,28 @@
+@media (max-width: 550px) { 
+    .card-section .second-card .card .btn{
+        margin-left: 120px !important;
+       
+    }
+   
+}
+@media (max-width: 425px) { 
+    .card-section .second-card .card .btn {
+    margin-left: 100px !important;
+       
+    }
+   
+}
+@media (max-width: 390px) { 
+    .card-section .second-card .card .btn {
+    margin-left: 80px !important;
+       
+    }
+   
+}
+@media (max-width: 300px) { 
+    .card-section .second-card .card .btn {
+    margin-left: 70px !important;
+       
+    }
+   
+}
